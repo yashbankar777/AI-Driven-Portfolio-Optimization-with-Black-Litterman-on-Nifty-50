@@ -8,7 +8,9 @@ This project performs a comprehensive portfolio optimization using the Black-Lit
 
 🧩 Key Features
 ✅ Fetches real-time and historical Nifty 50 stock data
+
 ✅ Computes log returns, covariance, and correlation matrices
+
 ✅ Visualizes:
 
 Nifty 50 price growth
@@ -27,6 +29,7 @@ Constraints (1%–20% stock weights)
 
 Sharpe ratio maximization
 ✅ Simulates and plots the Efficient Frontier
+
 ✅ Displays a ranked breakdown of top stocks by optimal weight
 
 📊 Visual Outputs
