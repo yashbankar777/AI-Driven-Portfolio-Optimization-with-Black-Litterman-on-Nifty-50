@@ -49,15 +49,4 @@ Matplotlib, Seaborn – for visualization
 
 SciPy – for optimization
 
-🧪 How to Run
-Clone this repo
 
-BASH:
-git clone https://github.com/yourusername/nifty50-blacklitterman-ai.git
-cd nifty50-blacklitterman-ai
-
-Install dependencies:
-pip install -r requirements.txt
-
-Run the main script:
-python your_script_name.py
