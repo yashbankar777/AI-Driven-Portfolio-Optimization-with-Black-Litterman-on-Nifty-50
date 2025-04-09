@@ -1,9 +1,11 @@
-🧠📈 AI-Driven Portfolio Optimization with Black-Litterman on Nifty 50
+🧠📈 AI-Driven Portfolio Optimization with Black-Litterman on Nifty 50:
+
 Harness the power of Artificial Intelligence and Modern Portfolio Theory to craft a smarter investment strategy with the Black-Litterman model, applied to India's Nifty 50 Index.
 
 🤖 Built with Python, powered by data, driven by insights.
 
-🚀 Project Overview
+🚀 Project Overview:
+
 This project performs a comprehensive portfolio optimization using the Black-Litterman model enhanced with AI-driven adjustments for correlation, volatility, and return calibration. It analyzes Nifty 50 components from 2020–2025, visualizes risk-return dynamics, and outputs an optimal stock allocation with maximum Sharpe ratio.
 
 🧩 Key Features
