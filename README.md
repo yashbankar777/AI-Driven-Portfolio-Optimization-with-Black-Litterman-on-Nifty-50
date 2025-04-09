@@ -23,6 +23,7 @@ Risk vs Return scatter plot
 Volatility penalty
 
 Correlation penalty
+
 ✅ Performs advanced portfolio optimization with:
 
 Constraints (1%–20% stock weights)
@@ -35,11 +36,17 @@ Sharpe ratio maximization
 📊 Visual Outputs
 Chart	Description
 📈 Nifty 50 Price Trend	Tracks overall market growth
+
 🔥 Correlation Heatmap	Highlights inter-stock relationships
+
 ⚖️ Risk vs Return	Visual comparison of individual stock profiles
+
 🚀 Adjusted Returns	Black-Litterman corrected returns bar chart
+
 🌈 Efficient Frontier	Monte Carlo simulation of optimal portfolios
+
 🛠️ Tech Stack
+
 Language: Python 3.x
 
 Libraries:
