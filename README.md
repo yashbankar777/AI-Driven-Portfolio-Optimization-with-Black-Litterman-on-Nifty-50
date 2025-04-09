@@ -9,6 +9,7 @@ Harness the power of Artificial Intelligence and Modern Portfolio Theory to craf
 This project performs a comprehensive portfolio optimization using the Black-Litterman model enhanced with AI-driven adjustments for correlation, volatility, and return calibration. It analyzes Nifty 50 components from 2020–2025, visualizes risk-return dynamics, and outputs an optimal stock allocation with maximum Sharpe ratio.
 
 🧩 Key Features
+
 ✅ Fetches real-time and historical Nifty 50 stock data
 
 ✅ Computes log returns, covariance, and correlation matrices
@@ -20,6 +21,7 @@ Nifty 50 price growth
 Stock correlation heatmap
 
 Risk vs Return scatter plot
+
 ✅ Implements Black-Litterman return adjustment using:
 
 Volatility penalty
@@ -36,7 +38,9 @@ Sharpe ratio maximization
 ✅ Displays a ranked breakdown of top stocks by optimal weight
 
 📊 Visual Outputs
+
 Chart	Description
+
 📈 Nifty 50 Price Trend	Tracks overall market growth
 
 🔥 Correlation Heatmap	Highlights inter-stock relationships
