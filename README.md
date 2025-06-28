@@ -34,29 +34,7 @@ The **Enhanced Portfolio Optimizer** is a sophisticated investment framework com
 ### 📦 Dependencies
 - `numpy`, `pandas`, `yfinance`, `matplotlib`, `seaborn`, `scipy`, `scikit-learn`  
 
----
-
-## 📋 Usage
-
-### 🧪 Basic Usage
-
-```python
-from enhanced_portfolio_optimizer import EnhancedPortfolioOptimizer, nifty50_tickers
-
-# Initialize optimizer
-optimizer = EnhancedPortfolioOptimizer(
-    tickers=nifty50_tickers,
-    start_date="2020-01-01",
-    end_date="2025-01-01",
-    risk_free_rate=0.07,  # 7% risk-free rate for India
-    target_return=0.15    # 15% target return
-)
-
-# Generate optimized portfolio
-portfolio = optimizer.generate_optimized_portfolio()
-
-
-⚙️ Advanced Configuration
+ Advanced Configuration
 python
 Copy
 Edit
@@ -69,7 +47,6 @@ optimizer = EnhancedPortfolioOptimizer(
     momentum_window=126,        # 6-month momentum window
     sentiment_factor=0.08       # Market sentiment adjustment
 )
-
 🎯 Core Methodology
 1. 📥 Data Processing & Validation
 Fetches historical price data from Yahoo Finance
@@ -79,12 +56,10 @@ Cleans missing values using forward fill
 Filters stocks with insufficient data history
 
 2. 📊 Metric Weighting Model
-
-| Metric                  | Description                        | Weight in Scoring |
-| ----------------------- | ---------------------------------- | ----------------- |
-| **Momentum Score**      | 3-month + 6-month momentum returns | 45%               |
-| **Regime Performance**  | Bull/bear adaptability             | 35%               |
-| **Drawdown Resilience** | Recovery from historical drawdowns | 20%               |
+Metric	Description	Weight in Scoring
+Momentum Score	3-month + 6-month momentum returns	45%
+Regime Performance	Bull/bear adaptability	35%
+Drawdown Resilience	Recovery from historical drawdowns	20%
 
 3. 🧠 ML-Based Feature Engineering
 PCA Analysis: Identify latent market factors
@@ -108,19 +83,17 @@ Fallback: Max Sharpe optimization if target is infeasible
 
 ⚙️ Configuration Parameters
 📉 Market Parameters
-| Parameter         | Description                      |
-| ----------------- | -------------------------------- |
-| `RISK_FREE_RATE`  | 0.07 (Indian 10-year G-Sec rate) |
-| `TARGET_RETURN`   | 0.15 (15% annual target return)  |
-| `MAX_VOLATILITY`  | 0.25 (Max portfolio risk)        |
-| `MOMENTUM_WINDOW` | 126 (6-month rolling window)     |
+Parameter	Description
+RISK_FREE_RATE	0.07 (Indian 10-year G-Sec rate)
+TARGET_RETURN	0.15 (15% annual target return)
+MAX_VOLATILITY	0.25 (Max portfolio risk)
+MOMENTUM_WINDOW	126 (6-month rolling window)
 
 📌 Portfolio Constraints
-| Constraint       | Value                              |
-| ---------------- | ---------------------------------- |
-| `MIN_WEIGHT`     | 0.02 (2% minimum allocation)       |
-| `MAX_WEIGHT`     | 0.15 (15% max per stock)           |
-| `TOP_CANDIDATES` | 40 (Number of stocks to shortlist) |
+Constraint	Value
+MIN_WEIGHT	0.02 (2% minimum allocation)
+MAX_WEIGHT	0.15 (15% max per stock)
+TOP_CANDIDATES	40 (Number of stocks to shortlist)
 
 📈 Performance Features
 🔐 Risk Metrics
@@ -171,6 +144,12 @@ Always consult certified professionals before investing.
 
 🙏 Acknowledgments
 📡 Yahoo Finance – Real-time market data
+
+🐍 NumPy & Pandas – Core data manipulation
+
+⚙️ SciPy – Optimization engine
+
+🤖 Scikit-learn – Machine learning algorithms
 
 🐍 NumPy & Pandas – Core data manipulation
 
