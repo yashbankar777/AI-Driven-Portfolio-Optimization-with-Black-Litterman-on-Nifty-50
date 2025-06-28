@@ -134,8 +134,7 @@ Historical data may not predict future market conditions
 Regulatory changes can impact investment outcomes
 Currency and political risks in emerging markets
 
-📄 License
-This project is licensed under the MIT License - see the LICENSE file for details.
+
 🙏 Acknowledgments
 
 Yahoo Finance for providing market data API
